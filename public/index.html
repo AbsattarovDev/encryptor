@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Encryptor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="customModal" class="modal" style="display: none">
+      <div class="modal-content">
+        <p id="modalMessage">This is a message</p>
+        <button id="modalCloseBtn">OK</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <h1 id="title">🔒 Encryptor</h1>
+
+      <textarea id="inputText" placeholder="Enter your message..."></textarea>
+      <input type="password" id="password" placeholder="Enter password" />
+
+      <div class="buttons">
+        <button id="encodeBtn">Encrypt</button>
+        <button id="decodeBtn">Decrypt</button>
+        <button id="copyBtn">Copy</button>
+      </div>
+
+      <textarea
+        id="outputText"
+        readonly
+        placeholder="Your encrypted/decrypted text will appear here..."
+      ></textarea>
+
+      <button id="toggleInstructions">📖 Instructions</button>
+      <div id="instructions" style="display: none">
+        <p>1. Enter your text.</p>
+        <p>2. Set a secure password.</p>
+        <p>3. Click "Encrypt" to encode your text.</p>
+        <p>4. Click "Decrypt" to recover it.</p>
+        <p>5. Use the same password to decode!</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
