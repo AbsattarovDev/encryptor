@@ -66,12 +66,6 @@ The server will run at **http://localhost:3000** 🚀
 
 ---
 
-## 📜 License
-
-🆓 **MIT License** – You can modify and use it freely.
-
----
-
 👨‍💻 **Made by [AbsattarovDev](https://github.com/absattarovdev)**  
 🌟 **Star this repo if you like it!** ⭐
 
