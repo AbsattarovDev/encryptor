@@ -66,22 +66,6 @@ The server will run at **http://localhost:3000** 🚀
 
 ---
 
-## 🌍 Deployment
-
-### **Deploy Backend on Railway/Vercel/Render**
-
-1️⃣ Push your **backend** to a private GitHub repo  
-2️⃣ Deploy it on **Railway**, **Vercel**, or **Render**  
-3️⃣ Get the backend URL (e.g., `https://your-api-url.com`)
-
-### **Deploy Frontend on Netlify/Vercel/GitHub Pages**
-
-1️⃣ Push your **frontend** to a separate GitHub repo  
-2️⃣ Deploy it on **Netlify**, **Vercel**, or **GitHub Pages**  
-3️⃣ Set the backend URL in your **script.js**
-
----
-
 ## 📜 License
 
 🆓 **MIT License** – You can modify and use it freely.
